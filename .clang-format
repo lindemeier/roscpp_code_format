@@ -44,7 +44,7 @@ SpacesInCStyleCastParentheses: false
 SpaceAfterControlStatementKeyword: true
 SpaceBeforeAssignmentOperators: true
 ContinuationIndentWidth: 4
-SortIncludes: false
+SortIncludes: true
 SpaceAfterCStyleCast: false
 
 # Configure each individual brace in BraceWrapping
@@ -63,4 +63,15 @@ BraceWrapping: {
     BeforeElse : 'true'
     IndentBraces : 'false'
 }
+
+# Mojin specific
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignOperands: true
+# AllowAllArgumentsOnNextLine: true
+# AllowAllConstructorInitializersOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+IncludeBlocks: Preserve
+
 ...
